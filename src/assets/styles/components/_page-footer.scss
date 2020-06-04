@@ -1,0 +1,91 @@
+.page-footer {
+    background-color: color(customBlack);
+    color: color(customWhite);
+
+    .container {
+        padding: 15px;
+
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+        }
+    }
+
+    section {
+        @media screen and (min-width: 1024px) {
+            &.contact-info {
+                flex: 0 0 330px;
+            }
+            &.external-links {
+                flex: 0 0 200px;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            position: relative;
+
+            @media screen and (min-width: 1024px) {
+                margin: 0;
+                padding: 0 30px 0 0;
+            }
+
+            &::after {
+                background-color: rgba(color(customWhite), .25);
+                content: '';
+                height: 2px;
+                max-width: 300px;
+                width: 75vw;
+
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+
+                @media screen and (min-width: 1024px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    h3 {
+        color: $tan;
+        font-size: 3rem;
+        line-height: 1.25;
+        font-family: $headlineFont;
+        text-transform: uppercase;
+    }
+
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    a {
+        color: $lightBlue;
+    }
+
+    ul, li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-bottom: 5px;
+
+            a {
+                display: block;
+                padding: 10px 0 0;
+
+                svg {
+                    color: color(customWhite);
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

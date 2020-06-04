@@ -1,0 +1,57 @@
+.candidate-question-answer {
+    // min-height: 90vh;
+    padding: 5vh 0;
+
+    @media screen and (min-width: 1024px) {
+        padding: 10vh 0;
+    }
+
+    &:nth-child(odd) {
+        background-color: $burntOrange;
+        color: color(customWhite);
+
+        a {
+            color: lighten($tan, 10);
+        }
+
+        .candidate-question {
+            color: color(customWhite);
+        }
+    }
+}
+
+.candidate-question {
+    line-height: 1.25;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 4rem;
+    }
+}
+
+.candidate-answer {
+    @media screen and (min-width: 1024px) {
+        font-size: 2rem;
+    }
+
+    h3 {
+        + .gatsby-highlight {
+            margin-top: 0;
+        }
+    }
+}
+
+// Code snippet highlighting
+.gatsby-highlight {
+    font-size: 1.2rem;
+    margin: 25px 0;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 1.6rem;
+        margin: 50px 0;
+    }
+
+    &:last-child,
+    + .gatsby-highlight {
+        margin-bottom: 0;
+    }
+}

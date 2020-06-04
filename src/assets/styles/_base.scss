@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: color(customWhite);
+    color: color(customBlack);
+    font-family: $baseFont;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    color: color(headline);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: color(link);
+    font-family: $headlineFont;
+    text-decoration: none;
+}

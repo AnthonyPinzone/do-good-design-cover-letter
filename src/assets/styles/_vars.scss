@@ -1,0 +1,43 @@
+// Fonts
+$baseFont: 'Lora', Arial, sans-serif;
+$headlineFont: 'Fugaz One', Tahoma, sans-serif;
+
+// Neutral Colors
+$offWhite: #F2F2F2;
+$darkGray: #2a2a2a;
+
+// Theme Colors
+$darkGreen: #025949;
+$lightGreen: #038c65;
+$darkBlue: #0B5F73;
+$lightBlue: #1DA0BF;
+$tan: #d9a679;
+$burntOrange: #bf4226;
+
+// Lighten & Darken Increments
+$lighten: 5;
+$darken: 5;
+
+// Color Map
+$colors: (
+    customWhite: (
+        base: $offWhite,
+        light: lighten($offWhite, $lighten),
+        dark: darken($offWhite, $darken)
+    ),
+    customBlack: (
+        base: $darkGray,
+        light: lighten($darkGray, $lighten),
+        dark: darken($darkGray, $darken)
+    ),
+    headline: (
+        base: $burntOrange,
+        light: lighten($burntOrange, $lighten),
+        dark: darken($burntOrange, $darken)
+    ),
+    link: (
+        base: $lightGreen,
+        light: lighten($lightGreen, $lighten),
+        dark: darken($lightGreen, $darken)
+    )
+);

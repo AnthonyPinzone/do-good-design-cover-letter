@@ -1,0 +1,8 @@
+@function color($base, $shade: base) {
+    $color: map-get(map-get($colors, $base), $shade);
+    @return $color;
+}
+
+@function doubleTextShadow($bgColor, $color) {
+    @return 1px 1px 0 $bgColor, 3px 3px 0 darken($color, 5);
+}

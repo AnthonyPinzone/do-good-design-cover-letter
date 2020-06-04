@@ -1,0 +1,27 @@
+.page-header {
+    box-shadow: inset 0 -5px 5px -5px darken($offWhite, 10);
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    font-size: 1.8rem;
+    min-height: 100vh;
+    padding: 5vh 0;
+    text-align: center;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 2.4rem;
+        padding: 10vh 0;
+    }
+
+    h1 {
+        color: $burntOrange;
+        line-height: 1.25;
+        font-family: $headlineFont;
+        text-shadow: doubleTextShadow($offWhite, color(headline));
+
+        @media screen and (min-width: 1024px) {
+            font-size: 6rem;
+        }
+    }
+}
