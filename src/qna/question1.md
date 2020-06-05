@@ -5,7 +5,7 @@ question: "Write clean, modular, reusable CSS and SCSS?"
 
 I've used a lot of Bootstrap in my time as a developer, and while some may frown upon that as "cheating" or a "shortcut", I've used it as an opportunity to see how enterprise companies modularize their code.
 
-In one such example, I took the Bootstrap style of color mapping to create a light theme and dark theme for my portfolio redesign.
+In one such example, I took the Bootstrap style of color mapping to create a light theme and dark theme for my portfolio redesign (still a work in progress).
 
 ```CSS
 $light-theme: () !default;
