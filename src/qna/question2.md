@@ -7,7 +7,7 @@ Modern, modular Javascript is what I work on getting better at the most as a dev
 
 This site you're viewing now will actually be my second Gatsby site put into production!
   
-[View the codebase for this site](https://github.com/AnthonyPinzone/do-good-design-cover-letter) or [checkout my Miami Dolphins themed offseason tracker](https://github.com/AnthonyPinzone/miami-dolphins-offseason), both on Github. 
+[View the codebase for this site](https://github.com/AnthonyPinzone/do-good-design-cover-letter) or checkout my Miami Dolphins themed offseason tracker [(code)](https://github.com/AnthonyPinzone/miami-dolphins-offseason) [(website)](https://miami-dolphins-offseason.netlify.app/), both on Github. 
 
 Below are some snippets from the aforementioned offseason tracker. In this particular site, I built out my own JSON and used that data to populate the Dolphins draft picks. I'd suggest checking out the repo linked above, as there's a lot of components and moving parts.
 
